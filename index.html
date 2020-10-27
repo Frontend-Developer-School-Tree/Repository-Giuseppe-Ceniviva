@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/stile.css">
+        <title>Rick & Morty</title>
+    </head>
+    <body>
+        <header id="headerContainer">
+            <img src="./assets/image/pickle_rick.png" /><h1>RICK & MORTY<br>L'App con i personaggi</h1> 
+        </header>
+        <div id="buttonContainer">
+            <button 
+                    type="button"
+                    id="personaggiBtn">Load Charset</button>
+        </div>
+        <template id="listaPersonaggi">
+            <div id="card">
+                <div class="imgContainer">
+                    <img 
+                        src="" 
+                        alt=""/>
+                </div>
+                <div class="textContainer">
+                    <h2></h2>
+                    <strong></strong>
+                    <span></span>
+                    <div id="tv">
+                            <i></i><h3 id="numE"></h3>
+                    </div>
+                    <button 
+                        type="button" 
+                        id="removeBtn">rimuovi card</button>
+                </div>
+            </div>
+        </template>
+        <div id="container"></div>
+        <script src="./assets/cenijs/main.js"></script>
+    </body>
+</html>
